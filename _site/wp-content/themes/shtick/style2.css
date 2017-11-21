@@ -1,0 +1,177 @@
+h5 {
+
+  font-size: 30px;
+  font-family: agipo;
+  color:#00ff00;
+
+  background: -webkit-radial-gradient(left top, #00ff00, #333, black, black, black);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h4 {
+
+  font-size: 30px;
+  font-family: agipo;
+  color:#00ff00;
+
+  background: -webkit-linear-gradient(right top, #00ff00, #333, black, black, black);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@font-face{
+    font-family: agipo;
+    src: url(fonts/agipo_regular_extended.otf);
+}
+
+h3 {
+
+  font-size: 30px;
+  font-family: agipo;
+
+  color:#00ff00;
+  background: -webkit-radial-gradient(black, black, black, #333, #00ff00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h2 {
+
+  font-size: 30px;
+  font-family: agipo;
+   background: -webkit-radial-gradient(black, black, black, #333, #00ff00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+}
+
+h1 {
+
+  font-size: 30px;
+  font-weight: bold;
+  font-family: agipo;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: #00ff00;
+}
+
+a:hover {
+    color: #00ff00;
+}
+
+a:active {
+    color: #00ff00;
+}
+
+#intro-baseline {
+  width: 700px ;
+  margin-left: auto ;
+  margin-right: auto ;
+  margin-top: 20%;
+  position: relative;
+  padding-left: 30px;
+}
+
+#bloka{
+width: auto ;
+  margin-left: 15% ;
+  margin-right: 15% ;
+  margin-top: 50%;
+  margin-bottom: 50%;
+  position: absolute;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  float:left;
+}
+
+#blok1 {
+  width: auto ;
+  float:left;
+    font-family: agipo;
+}
+
+#blok2 {
+  width: auto ;
+  margin-left: 15% ;
+  margin-right: 15% ;
+  margin-top: 50%;
+  margin-bottom: 50%;
+  position: absolute;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  float:left;
+    font-family: agipo;
+}
+
+#blok3 {
+
+  width: auto ;
+  margin-left: 15% ;
+  margin-right: 15% ;
+  margin-top: absolute;
+  position: absolute;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  float:left;
+    font-family: agipo;
+}
+
+.neighborhood-guides {
+  margin-top: 50%;
+  padding-top: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 10%;
+  font-family: agipo;
+
+    border-bottom: 0px solid #dbdbdb; 
+
+    background-color: none; 
+}
+
+.neighborhood-guides3 {
+  margin-top: 1%;
+  padding-top: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-bottom: 1%;
+  position: absolute;
+  font-family: agipo;
+
+}
+
+}
+
+.thumbnail {
+margin-top: -200%;
+  padding-top: 0%;
+  padding-left: 0%;
+  padding-right: 00%;
+  padding-bottom: 0%;
+  font-family: agipo;
+
+
+    border-bottom: 0px solid #dbdbdb; 
+
+    background-color: #a2a2a2; 
+}
+
+}
+
+.col-md-6{
+
+  background-color: none;
+  font-family: edit;
+  width:100%;
+}
