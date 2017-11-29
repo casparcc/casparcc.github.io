@@ -13,7 +13,7 @@ HeaderScroller = function(targetImg, logoImg, displacementMap)
     this._amountLoc = null;
     this._phaseLoc = null;
     this._phase = 0;
-    this._amount = 0;
+    this._amount = 1000;
     this._amountTarget = 0;
     this._cutOff = 1;
     this._cutOffTarget = 0;
@@ -47,7 +47,7 @@ HeaderScroller.prototype =
         if (!this._gl) return;
 
         this._canvas.style.position = "fixed";
-        this._canvas.style.width = "100%";
+        this._canvas.style.width = "101%";
 		this._canvas.style.height = "100%";
         this._canvas.style.border = "none";
         this._canvas.style.zIndex = "-500000";
@@ -176,7 +176,7 @@ HeaderScroller.prototype =
         this._amount = (this._amountTarget + this._amount) * .5;
         this._cutOff = (this._cutOffTarget + this._cutOff) * .5;
         this._phase += .01;
-        //this._gl.uniform1f(this._amountLoc, Math.sin(this._phase) *.5 +.5);
+        // this._gl.uniform1f(this._amountLoc, Math.sin(this._phase) *.5 +.5);
         this._gl.uniform1f(this._phaseLoc, this._phase * this.animationSpeed);
         this._gl.uniform1f(this._cutoffLoc, this._cutOff * 1.1);
         this._gl.uniform1f(this._hardnessLoc, this.hardness);
@@ -184,7 +184,7 @@ HeaderScroller.prototype =
 
         gl.viewport(0, 0, this._canvas.clientWidth, this._canvas.clientHeight);
 
-        //gl.clearColor(Math.random(), Math.random(), Math.random(), 1.0);
+        gl.clearColor(Math.random(), Math.random(), Math.random(), 1.0);
         //gl.clear(this._gl.COLOR_BUFFER_BIT);
         gl.useProgram(this._program);
         gl.bindBuffer(gl.ELEMENT_ARRAY_BUFFER, this._indexBuffer);
