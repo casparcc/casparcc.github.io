@@ -1,0 +1,32 @@
+{
+        "message": {
+                "id": 4095,
+                "temperature": 409.5
+        },
+        "origin": "receiver",
+        "protocol": "alecto_wsd17",
+        "uuid": "0000-b8-27-eb-0f3db7",
+        "repeats": 3
+}
+{
+        "message": {
+                "id": 1490,
+                "temperature": 25.1,
+                "humidity": 40.0,
+                "battery": 1
+        },
+        "origin": "receiver",
+        "protocol": "alecto_ws1700",
+        "uuid": "0000-b8-27-eb-0f3db7",
+        "repeats": 3
+}
+{
+        "message": {
+                "id": 2039,
+                "temperature": 409.5
+        },
+        "origin": "receiver",
+        "protocol": "alecto_wsd17",
+        "uuid": "0000-b8-27-eb-0f3db7",
+        "repeats": 4
+}
