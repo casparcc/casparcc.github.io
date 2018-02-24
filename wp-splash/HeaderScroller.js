@@ -12,7 +12,7 @@ HeaderScroller = function(targetImg, logoImg, displacementMap)
     this._uvAttrib = 0;
     this._amountLoc = null;
     this._phaseLoc = null;
-    this._phase = 0;
+    this._phase = 50;
     this._amount = 1000;
     this._amountTarget = 0;
     this._cutOff = 1;
@@ -184,7 +184,7 @@ HeaderScroller.prototype =
 
         gl.viewport(0, 0, this._canvas.clientWidth, this._canvas.clientHeight);
 
-        gl.clearColor(Math.random(), Math.random(), Math.random(), 1.0);
+        gl.clearColor(Math.random(), Math.random(), Math.random(), 0);
         //gl.clear(this._gl.COLOR_BUFFER_BIT);
         gl.useProgram(this._program);
         gl.bindBuffer(gl.ELEMENT_ARRAY_BUFFER, this._indexBuffer);
